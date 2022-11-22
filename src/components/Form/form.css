@@ -1,0 +1,94 @@
+form {
+    width: 363px;
+    max-width: 100%;
+    height: 351px;
+    background: #FFFFFF;    
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 40px 25px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#description {
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    height: 52px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+}
+
+form > span {
+    color: #868E96;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.div-input-number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-input-number input {
+    height: 48px;
+    width: 128px;
+    max-width: 100%;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.div-input-number input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.div-select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-select select {
+    height: 52px;
+    width: 150px;
+    max-width: 100%;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    padding: 0px 16px;
+}
+
+form > button {
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 48px;
+    cursor: pointer;
+}
+
+form > button:hover {
+    background: #E34981;
+    border: 2px solid #E34981;
+    border-radius: 8px;
+    color: #F8F9FA;
+}

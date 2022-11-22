@@ -1,0 +1,19 @@
+.div-color-entrys {
+    position: absolute;
+    background-color: #03B898;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.div-color-expenses {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #E9ECEF;
+    border-radius: 30px 0px 0px 30px;
+}

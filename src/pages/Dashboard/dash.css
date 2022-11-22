@@ -1,0 +1,91 @@
+.div-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    gap: 30px;
+    max-width: 1400px;
+}
+
+.div-container-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-container-right h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #212529;
+}
+
+.container-div-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons > button {
+    height: 40px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #343A40;
+    cursor: pointer;
+}
+
+#all {
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#all:hover {
+    background: #E34981;
+    border-radius: 8px;
+    color: #F8F9FA;
+}
+
+.buttons > button:hover {
+    background: #343A40;
+    border: 1.4px solid #343A40;
+    border-radius: 8px;
+    color: #F8F9FA;
+}
+
+.ul-list-entrys-and-expenses {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 950px) {
+    .div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .div-container-right {
+        display: flex;
+        flex-direction: column;
+    }
+    .ul-list-entrys-and-expenses{
+        max-width: 100vh;
+    }
+}
